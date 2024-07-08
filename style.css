@@ -152,7 +152,7 @@ body{
   display: flex;
   height: 480px;
   justify-content: space-between;
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgb(61, 61, 61);
   color: white;
 
   
