@@ -1,0 +1,84 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+.banner-img{
+  background-image: url("images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 1400px;
+  margin:0 auto;
+  background-color: rgba(0,0,0, 0.5);
+  /* text-align: center;
+  align-items: center; */
+  background-blend-mode: overlay;
+}
+.banner-img div{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.main-section{
+  height: 815px;
+  width: 815px;
+  border: 2px solid red;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-section-text h1{
+  color: red;
+  font-size: 80px;
+  font-weight: bold;
+}
+.main-section-text p{
+  color: red;
+  font-size: 20px;
+  font: weight 400px;;
+}
+.main-section-text h2{
+  color: red;
+  font-size: 38px;
+  font-weight: bold;
+}
+*{
+  margin: 5px;
+  padding: 3px;
+}
+.hero-section{
+  height: 610px;
+  width: 1400px;
+  border: 1px solid blue;
+  margin: 0 auto;
+  background-image: url(images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.hero-content{
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+.hero-text h1{
+  color: white;
+  font-size: 54px;
+}
+.hero-text p{
+  color: white;
+  font-size: 18px;
+}
