@@ -134,3 +134,41 @@ body{
 .middle-img{
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer section */
+.footer-section{
+  /* border: 2px solid red; */
+  display: flex;
+  height: 480px;
+  justify-content: space-between;
+  background-color: rgba(0,0,0, 0.9);
+  color: white;
+
+  
+}
+.footer-col{
+  width: 26%;
+  /* border: 2px solid greenyellow; */
+}
+.footer-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 460px;
+}
