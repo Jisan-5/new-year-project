@@ -13,7 +13,7 @@ body{
   height: 600px;
   width: 1400px;
   margin:0 auto;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.4);
   /* text-align: center;
   align-items: center; */
   background-blend-mode: overlay;
@@ -29,7 +29,7 @@ body{
 .main-section{
   height: 815px;
   width: 815px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 100px auto;
   display: flex;
   flex-direction: column;
@@ -65,6 +65,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: rgba(0,0,0, 0.3);
+  background-blend-mode: overlay;
+  margin-bottom: 15px;
   
 }
 .hero-content{
@@ -81,4 +84,53 @@ body{
 .hero-text p{
   color: white;
   font-size: 18px;
+}
+
+/* JOin Now section */
+.join-now-section{
+  align-items: center;
+}
+.join-now-div{
+  width: 550px;
+  height: 270px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* share color */
+.orange{
+  color:#FF0000;
+}
+.btn-orange , button{
+  background-color: #FF0000;
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+.join-now-div p{
+  font-size: 22px;
+  line-height: 34px;
+  margin: 20px 0;
+}
+
+/* Comming soon seciton */
+.comming-soon{
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid yellowgreen; */
+  align-items: center;
+}
+
+.comming-soon-div{
+  /* border: 2px solid red; */
+  width: 27%;
+}
+.middle-img{
+  text-align: center;
 }
